@@ -6,12 +6,17 @@
     "build": "next build",
     "start": "next start"
   },
+  "devDependencies": {
+    "webpack": "^4.46.0",
+    "tailwindcss": "latest",
+    "postcss": "latest",
+    "autoprefixer": "latest"
+  },
   "dependencies": {
     "next": "latest",
     "next-pwa": "^3.1.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "webpack": "^4.46.0"
+    "react-dom": "^16.13.1"
   },
   "license": "MIT"
 }
