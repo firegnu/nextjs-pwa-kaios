@@ -2,7 +2,7 @@
 
 const nextManifest = (req, res) => {
   res.status(200).json({
-    "name": "Next.JS Progressive Web App",
+    "name": "PWA-sample-kaios-next",
     "description": "Next.JS Progressive Web App",
     "developer": {
       "name": "KaiOS",
