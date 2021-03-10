@@ -3,6 +3,11 @@
 const nextManifest = (req, res) => {
   res.status(200).json({
     "name": "Next.JS Progressive Web App",
+    "description": "Next.JS Progressive Web App",
+    "developer": {
+      "name": "KaiOS",
+      "url": "http://kaiostech.com"
+    },
     "short_name": "Next PWA",
     "theme_color": "#ffffff",
     "background_color": "#004740",
@@ -52,7 +57,13 @@ const nextManifest = (req, res) => {
         "type": "image/png"
       }
     ],
-    "splash_pages": null
+    "splash_pages": null,
+    "b2g_features": {
+      "developer": {
+        "name": "kaios",
+        "url": "http://storepwa.github.io"
+      }
+    }
   })
 }
 
